@@ -1,135 +1,123 @@
 body{
-    color : white;
+    color: white;
     background: #1F2937;
-    margin : 200px 400px 200px 400px;
-    border : 2px solid #ffffff;
-    border-radius : 10px;
-    padding : 50px;
+    margin: 200px 400px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 50px;
 }
 
 h1{
     font-family: "Karla", sans-serif;
-    font-weight : 800;
-    margin : 5px 0px;
+    font-weight: 800;
+    margin: 5px 0;
 }
+
 span{
-    color : #10B981 ;
+    color: #10B981;
 }
 
 #head-text{
-    width : 55vh;
-    font-size : 1.5rem;
+    width: 55vh;
+    font-size: 1.5rem;
 }
- 
+
 h4{
     font-family: "Inter", sans-serif;
-    font-weight : 100;
-    font-size : 1.7em;
-    margin : 5px 0px;
-    height : 2.5926vh;
+    font-weight: 100;
+    font-size: 1.7em;
+    margin: 5px 0;
+    height: 2.5926vh;
 }
 
-
 button{
-    margin-top : 80px;
-    padding : 9px 15px 9px 12px;
-    border-radius : 6px;
-    background : #10B981;
-    border : none;
-    color : white;
-    font-family: "Inter" , sans-serif;
-    font-weight : 500;
-    font-size : 16px;
-    cursor : pointer;
-    box-shadow : 0px 8px #1f1f37;
+    margin-top: 80px;
+    padding: 9px 15px 9px 12px;
+    border-radius: 6px;
+    background: #10B981;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 8px #1f1f37;
 }
 
 button:active{
-    box-shadow : 0px 5px #0d1118;
-    transform : translateY(5px);;
+    box-shadow: 0px 5px #0d1118;
+    transform: translateY(5px);
 }
 
 #middle{
-    display : flex;
+    display: flex;
     align-items: center;
 }
 
 input{
-    padding : 7px 10px 7px 5px;
-    border-radius : 8px;
-    border : none;
+    padding: 7px 10px 7px 5px;
+    border-radius: 8px;
+    border: none;
     text-align: center;
 }
+
 #middle-func{
-    font-family:"Inter" , sans-serif ;
+    font-family: "Inter", sans-serif;
     text-align: center;
-    margin-top : 40px;
-    margin-left : 90px;
+    margin-top: 40px;
+    margin-left: 90px;
 }
 
 .line{
-    margin : 50px 0px;
-    width : 36.973vw;
-    height : 0.1vh;
-    background : #2F3E53;
-
+    margin: 50px 0;
+    width: 36.973vw;
+    height: 0.1vh;
+    background: #2F3E53;
 }
 
-#password-1 , #password-2{
-    margin  : 7px 30px;
-    margin-right : 20px;
-    background : #273549;
-    padding : 10px 20px;
-    border-radius : 5px;
-    font-family : "Inter" , sans-serif;
-    color  : #10B981
- }
+#password-1, #password-2{
+    margin: 7px 30px;
+    margin-right: 20px;
+    background: #273549;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    color: #10B981;
+}
 
- #password-text{
-    display : flex;
+#password-text{
+    display: flex;
     text-align: center;
+}
 
- }
-
- i{
+i{
     cursor: pointer;
- }
+}
 
- #aux-btn-top{
-    margin-top : 80px;
+#aux-btn-top, #aux-btn{
+    margin-top: 80px;
     margin-left: 70px;
-    padding : 9px 15px 9px 12px;
-    border-radius : 6px;
-    background : #10B981;
-    border : none;
-    color : white;
-    font-family: "Inter" , sans-serif;
-    font-weight : 500;
-    font-size : 16px;
-    cursor : pointer;
-    box-shadow : 0px 8px #1f1f37;
+    padding: 9px 15px 9px 12px;
+    border-radius: 6px;
+    background: #10B981;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 8px #1f1f37;
+}
 
- }
- #aux-btn{
-    margin-top : 18px;
-    margin-left: 70px;
-    padding : 9px 15px 9px 12px;
-    border-radius : 6px;
-    background : #10B981;
-    border : none;
-    color : white;
-    font-family: "Inter" , sans-serif;
-    font-weight : 500;
-    font-size : 16px;
-    cursor : pointer;
-    box-shadow : 0px 8px #1f1f37;
+#aux-btn{
+    margin-top: 18px;
+}
 
- }
-
- /* Media Queries for Responsiveness */
- @media (max-width: 1200px) {
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
     body {
         margin: 20px 100px;
+        border-width: 1.5px;
     }
 
     .line {
@@ -140,6 +128,7 @@ input{
 @media (max-width: 992px) {
     body {
         margin: 20px 50px;
+        border-width: 1.5px;
     }
 
     .line {
@@ -150,6 +139,7 @@ input{
 @media (max-width: 768px) {
     body {
         margin: 10px 20px;
+        border-width: 1px;
     }
 
     .line {
@@ -169,8 +159,9 @@ input{
 
 @media (max-width: 576px) {
     body {
-        margin: 10px 10px;
+        margin: 10px;
         padding: 20px;
+        border-width: 1px;
     }
 
     .line {
