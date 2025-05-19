@@ -2,4 +2,4 @@
 
 A pasword generator website for generating mixture of random numbers , characters and alphabets
 
-Visit the website : https://arkagme.github.io/password-generator/
+Visit the website : password.arkagme.biz
